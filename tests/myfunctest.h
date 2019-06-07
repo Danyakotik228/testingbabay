@@ -14,7 +14,7 @@ TEST(myfuncTest, num0) {
 
 TEST(myfuncTest, num1) {
     ASSERT_EQ(myfunc(0, 5, 5).flag, 1);
-
+    ASSERT_EQ(myfunc(0, 5, 5).x1, -1);
 }
 
 TEST(myfuncTest, num2) {
@@ -32,6 +32,7 @@ TEST(myfuncTest, num4) {
 
 TEST(myfuncTest, num5) {
     ASSERT_EQ(myfunc(2, 4, 2).flag, 1);
-}
+    ASSERT_EQ(myfunc(2, 4, 2).x1, -1);
+  }
 
 #endif // MYFUNCTEST_H
